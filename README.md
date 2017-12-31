@@ -1,5 +1,5 @@
 # Spammer
-Mass email Sender
+Python script to send mails to a list(.CSV) of Mail IDs having 2 feilds (Data feild(Used as the Subject of the Mail), Mail ID).
 
 # NOTE 
 # You need to enable Access for less secure apps for the Gmail account from which you intend to send mail.
