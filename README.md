@@ -1,6 +1,6 @@
 # Spammer
 Python script to send mails to a list of Mail IDs contained in a file(**.CSV**)(list.csv) having 2 feilds namely:
-> Data Feild -Used as the Subject of the Mail 
+> Data Feild -Used as the Subject of the Mail.
 > Mail ID - Mail ID to which mail is send.
 
 # NOTE 
