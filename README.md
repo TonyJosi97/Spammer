@@ -13,3 +13,4 @@ Mass email Sender
 > - YOUR USER NAME - User name of the Mail ID from which mail needs to be send.
 > - YOUR PASSWORD - Password of the Mail ID from which mail needs to be send.
 
+**Run `python spammer.py`**
