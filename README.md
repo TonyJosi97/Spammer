@@ -1,8 +1,9 @@
 # Spammer
-Mass mail Sender
+Mass email Sender
 
 # Usage
-'mySpammer('YOUR MAIL ID', 'MAIL CONTENT', 'YOUR USER NAME', 'YOUR PASSWORD')'
+`mySpammer('YOUR MAIL ID', 'MAIL CONTENT', 'YOUR USER NAME', 'YOUR PASSWORD')`
+
 > - YOUR MAIL ID - Mail ID from which mail needs to be send.
 > - MAIL CONTENT - Content of the mail; can be given as plai text. Header(Subject) is taken as the value of first feild in the .CSV file(here company name).
 > - YOUR USER NAME - User name of the Mail ID from which mail needs to be send.
