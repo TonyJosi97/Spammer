@@ -1,7 +1,8 @@
 # Spammer
-Python script to send mails to a list of Mail IDs contained in a file(**.CSV**)(list.csv) having 2 feilds namely:
+Python script to send mails using `smtplib`, to a list of Mail IDs contained in a file(**.CSV**) (list.csv) having 2 feilds namely:
 > - Data Feild -Used as the Subject of the Mail
 > - Mail ID - Mail ID to which mail is send
+
 
 # NOTE 
 # You need to enable Access for less secure apps for the Gmail account from which you intend to send mail.
