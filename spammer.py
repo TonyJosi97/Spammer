@@ -10,14 +10,15 @@ def mySpammer(fromAddr, message, myMailID, myPassword):
        fields = line.split(",")
        companyName = fields[0]
        mailID = fields[1]
-       header  = 'From: %s\n' % fromAddr
+       header = ''
+       header += 'From: %s\n' % fromAddr
        header += 'Subject: %s\n\n' % companyName
-       message = header + message
+       content = header + message
        print ('Spamming %s, Mail ID: %s' % (companyName, mailID))
-       problems = spamServer.sendmail(fromAddr, mailID, message)
+       problems = spamServer.sendmail(fromAddr, mailID, content)
        
   return problems
   spamServer.quit()
 
 
-mySpammer('YOUR MAIL ID', 'MAIL CONTENT', 'YOUR USER NAME', 'YOUR PASSWORD')
+mySpammer('tordown97@gmail.com', 'Tor Test', 'tordown97', 'sjbcbseschool2015')
