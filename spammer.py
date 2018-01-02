@@ -21,4 +21,4 @@ def mySpammer(fromAddr, message, myMailID, myPassword):
   spamServer.quit()
 
 
-mySpammer('tordown97@gmail.com', 'Tor Test', 'tordown97', 'sjbcbseschool2015')
+mySpammer('MAIL ID OF SENDER', 'CONTENT OF THE MAIL', 'USERNAME OF THE SENDER', 'PASSWORD')
